@@ -1,0 +1,18 @@
+{
+  "app_name": "Firefox",
+  "version": "126.0",
+  "description": "Mozilla Firefox is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, Mozilla Corporation. Firefox uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. It is a powerful and customizable browser.Mozilla Firefox is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, Mozilla Corporation. Firefox uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. It is a powerful and customizable browser.Mozilla Firefox is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, Mozilla Corporation. Firefox uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. It is a powerful and customizable browser.",
+  "icon_path": "DOTapp/Firefox/firefox_icon.png",  
+  "executable_name": "DOTapp/Firefox/firefox", 
+  "install_map": [
+    {
+      "source_root": "DOTapp/Firefox",  
+      "destination_root": "$HOME/.app/Firefox"
+    }
+  ],
+  "desktop_entry": {
+    "Terminal": false,
+    "Type": "Application",
+    "Categories": "Network;WebBrowser;"
+  }
+}
